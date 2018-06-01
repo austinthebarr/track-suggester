@@ -32,6 +32,11 @@ $(function(){
     }
 
     $("#hidden").show();
+    $(".panel-body").hide();
 
+  });
+
+  $(".panel-heading").click(function(){
+    $(".panel-body").toggle();
   });
 });

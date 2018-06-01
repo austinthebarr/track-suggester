@@ -18,3 +18,19 @@ h2 {
 .btn {
   margin-top: 25px;
 }
+
+.panel-title{
+  font-size: 35px;
+  width: 61%;
+}
+
+h3.panel-title:hover{
+  text-decoration: underline;
+  cursor: progress;
+}
+
+.panel-body{
+  font-family: 'Josefin Sans', sans-serif;
+  color: Red;
+  font-size: 36px;
+}
