@@ -19,9 +19,9 @@ $(function(){
 
     $(".name").text(name);
     // $(".results").text(sum);
-      debugger;
+      // debugger;
 
-    if (sum <= 45) {
+    if (sum <= 50) {
       $(".results").text("Ruby");
     }
     else if (sum > 50 && sum < 60) {
