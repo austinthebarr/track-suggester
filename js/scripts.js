@@ -1,6 +1,7 @@
 $(function(){
   $("#inputForm").submit(function(event){
     event.preventDefault()
+    // debugger;
 
     var name = $("input#name").val()
 
@@ -19,7 +20,9 @@ $(function(){
     $(".name").text(name);
     $(".results").text(sum);
 
-    $(".hidden").show()
+    if 
+
+    $("#hidden").show();
 
   });
 });
