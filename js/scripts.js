@@ -1,7 +1,7 @@
 $(function(){
   $("#inputForm").submit(function(event){
     event.preventDefault()
-    // debugger;
+
 
     var name = $("input#name").val()
 
@@ -18,9 +18,18 @@ $(function(){
     var sum = question1 + question2 + question3 + question4 + question5;
 
     $(".name").text(name);
-    $(".results").text(sum);
+    // $(".results").text(sum);
+      debugger;
 
-    if 
+    if (sum <= 45) {
+      $(".results").text("Ruby");
+    }
+    else if (sum > 50 && sum < 60) {
+      $(".results").text("PHP");
+    }
+    else if (sum <= 75 && sum > 55) {
+      $(".results").text("C#");
+    }
 
     $("#hidden").show();
 
