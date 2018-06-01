@@ -1,3 +1,16 @@
 #hidden{
   display:none;
 }
+
+.col-md-6{
+  margin: 3%;
+}
+
+h2 {
+  width: 25%;
+  padding-left: 25px
+}
+
+.jumbotron p {
+  padding: 20px 20px;
+}

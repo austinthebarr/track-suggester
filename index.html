@@ -10,134 +10,141 @@
   <body>
     <div class="jumbotron">
       <h2>What Programming Language Should I learn?</h2>
-      <p>"What Programming Language Should I learn?" Is a common question for people who are looking into becoming a programmer.</p>
-      <p>That is why I developed a survey to help you answer that question!Enjoy!</p>
-    </div>
+      <p>This is a survey to help you answer that question! <strong>Enjoy!</strong.></p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="inputForm">
+            <!-- name -->
+            <div class="form-group">
+              <label for="fullname">Enter Your Name</label>
+              <input type="name" class="form-control" id="name" placeholder="Enter Full Name">
+            </div>
 
-    <form id="inputForm">
-      <!-- name -->
-      <div class="form-group">
-        <label for="fullname">Enter Your Name</label>
-        <input type="name" class="form-control" id="name" placeholder="Enter Full Name">
-      </div>
+            <!-- Question #1 -->
+            <h3>Do you like working for large Companies?</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question1" id="question1" value="15" checked>
+              <label class="form-check-label" for="yes">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question1" id="question1" value="5">
+              <label class="form-check-label" for="no">
+                No
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question1" id="question1" value="10">
+              <label class="form-check-label" for="no-opinion">
+                No Opinion
+              </label>
+            </div>
 
-      <!-- Question #1 -->
-      <h3>Do you like working for large Companies?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question1" id="question1" value="15" checked>
-        <label class="form-check-label" for="yes">
-        Yes
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question1" id="question1" value="5">
-        <label class="form-check-label" for="no">
-          No
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question1" id="question1" value="10">
-        <label class="form-check-label" for="no-opinion">
-         No Opinion
-        </label>
-      </div>
+            <!-- Question #2 -->
+            <h3>Do you like working with small Companies?</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question2" id="question2" value="5" checked>
+              <label class="form-check-label" for="yes">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question2" id="question2" value="15">
+              <label class="form-check-label" for="no">
+                No
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question2" id="question2" value="10">
+              <label class="form-check-label" for="no-opinion">
+                No Opinion
+              </label>
+            </div>
 
-      <!-- Question #2 -->
-      <h3>Do you like working with small Companies?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question2" id="question2" value="5" checked>
-        <label class="form-check-label" for="yes">
-          Yes
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question2" id="question2" value="15">
-        <label class="form-check-label" for="no">
-          No
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question2" id="question2" value="10">
-        <label class="form-check-label" for="no-opinion">
-          No Opinion
-        </label>
-      </div>
+            <!-- Question #3 -->
+            <h3>Do you want to Build interactive web applications with ease? </h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question3" id="question3" value="5" checked>
+              <label class="form-check-label" for="yes">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question3" id="question3" value="15">
+              <label class="form-check-label" for="no">
+                No
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question3" id="question3" value="10">
+              <label class="form-check-label" for="no-opinion">
+                No Opinion
+              </label>
+            </div>
 
+            <!-- Question #4 -->
+            <h3>Do you enjoy working in fast pace enviorments?</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question4" id="question4" value="10" checked>
+              <label class="form-check-label" for="yes">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question4" id="question4" value="5">
+              <label class="form-check-label" for="no">
+                No
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question4" id="question4" value="15">
+              <label class="form-check-label" for="no-opinon">
+                No Opinion
+              </label>
+            </div>
 
-      <!-- Question #3 -->
-      <h3>Do you want to Build interactive web applications with ease? </h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question3" id="question3" value="5" checked>
-        <label class="form-check-label" for="yes">
-          Yes
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question3" id="question3" value="15">
-        <label class="form-check-label" for="no">
-          No
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question3" id="question3" value="10">
-        <label class="form-check-label" for="no-opinion">
-          No Opinion
-        </label>
-      </div>
+            <!-- Question #5 -->
+            <h3>Do you want to learn the most in-demand language?</h3>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question5" id="question5" value="15" checked>
+              <label class="form-check-label" for="yes">
+                Yes
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question5" id="question5" value="5">
+              <label class="form-check-label" for="no">
+                No
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question5" id="question5" value="10">
+              <label class="form-check-label" for="no-opinion">
+                No Opinion
+              </label>
+            </div>
 
-      <!-- Question #4 -->
-      <h3>Do you enjoy working in fast pace enviorments?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question4" id="question4" value="10" checked>
-        <label class="form-check-label" for="yes">
-          Yes
-        </label>
+            <!-- Button -->
+
+            <button type="submit" class="btn btn-danger">See My Results!</button>
+          </form>
+        </div>
+
+        <!-- Results -->
+        <div class="col-md-4">
+          <div id="hidden">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Survey Results!</h3>
+              </div>
+              <div class="panel-body">
+                <p><span class="name"></span>, you should learn <span class="results"><span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question4" id="question4" value="5">
-        <label class="form-check-label" for="no">
-          No
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question4" id="question4" value="15">
-        <label class="form-check-label" for="no-opinon">
-          No Opinion
-        </label>
-      </div>
-
-      <!-- Question #5 -->
-      <h3>Do you want to learn the most in-demand language?</h3>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question5" id="question5" value="15" checked>
-        <label class="form-check-label" for="yes">
-          Yes
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question5" id="question5" value="5">
-        <label class="form-check-label" for="no">
-          No
-        </label>
-      </div>
-      <div class="form-check">
-        <input class="form-check-input" type="radio" name="question5" id="question5" value="10">
-        <label class="form-check-label" for="no-opinion">
-          No Opinion
-        </label>
-      </div>
-
-      <!-- Button -->
-
-        <button type="submit" class="btn btn-danger">See My Results!</button>
-
-    </form>
-
-    <!-- Results -->
-    <div id="hidden">
-      <p><span class="name"></span>, you should learn <span class="results"><span>
-    </div>
-
-
-  </body>
-</html>
+    </body>
+  </html>
